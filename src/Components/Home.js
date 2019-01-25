@@ -9,10 +9,10 @@ const Home = () => {
             <div className="row all">
      
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-5">
                         <img src={img} className="home-img"></img>
                     </div>
-                    <div className="col-lg-8">
+                    <div className="col-lg-6">
                         <h1>Hello, </h1><span>A bit About Me</span>
                         <div className="row">  <Link to={{pathname:"/Resume"}}> <div className="col-lg-2 red" > My Resume</div></Link>  
                          <Link to={{pathname:"/Projects"}}> <div className="col-lg-2 blue" >My Work</div></Link>  
@@ -20,7 +20,7 @@ const Home = () => {
 
                         </div>
                      <div className="row">
-                     <div className="col-lg-8"> I am a passionate with front end specially , strong in design , good problem solving skills , always seek to learn more </div></div>
+                     <div className="col-lg-10"> I am a passionate with front end specially , strong in design , good problem solving skills , always seek to learn more </div></div>
                     </div>
                 </div>
             </div>

@@ -95,7 +95,8 @@ cursor: pointer;
   background: #d1c92666
 }
 .all{
-  transform: translateX(15%);
+  margin-left: 25%;
+  transform: translateX(-20%);
  
 }
 .footer {
@@ -222,6 +223,7 @@ hr{
 }
 .nav{
   margin-top: 120px;
+  margin-left: 30%;
 }
 .resume{
   width: 100% !important;
