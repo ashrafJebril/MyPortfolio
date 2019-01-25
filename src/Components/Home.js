@@ -14,7 +14,7 @@ const Home = () => {
                     </div>
                     <div className="col-lg-8">
                         <h1>Hello, </h1><span>A bit About Me</span>
-                        <div className="row"><div className="col-lg-2 red" >My Resume</div>
+                        <div className="row">  <Link to={{pathname:"/Resume"}}> <div className="col-lg-2 red" > My Resume</div></Link>  
                          <Link to={{pathname:"/Projects"}}> <div className="col-lg-2 blue" >My Work</div></Link>  
                             <Link to={{pathname:"/Skills"}}>   <div className="col-lg-2 yellow">My Skills</div></Link>
 
